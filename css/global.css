@@ -65,8 +65,8 @@
 :root{
 	
 	/* #fa4318 in decimal RGB */
-	--main-color: rgb(250,67,24);
-	--main-color-rgb: 250,67,24;
+	--main-color: rgb(190,34,48);
+	--main-color-rgb: 190,34,48;
   
   /* #120600 in decimal RGB */
   --color-two: rgb(18,6,0);
@@ -115,16 +115,16 @@
   --color-ten-rgb:242,242,242;
   
   /* #28bc00 in decimal RGB */
-  --color-eleven: rgb(40,188,0);
-  --color-eleven-rgb:40,188,0;
+  --color-eleven: rgb(188, 153, 0);
+  --color-eleven-rgb:188, 153, 0;
   
   /* #186e00 in decimal RGB */
-  --color-twelve: rgb(24,110,0);
+  --color-twelve: rgb(110, 53, 0);
   --color-twelve-rgb:24,110,0;
   
   /* #0099e2 in decimal RGB */
-  --color-thirteen: rgb(0,153,226);
-  --color-thirteen-rgb:0,153,226;
+  --color-thirteen: rgb(226, 0, 0);
+  --color-thirteen-rgb:226, 0, 0;
   
   /* #efefef in decimal RGB */
   --color-fourteen: rgb(239,239,239);
@@ -151,8 +151,8 @@
   --color-nineteen-rgb:60,60,60;
   
   /* #b42706 in decimal RGB */
-  --color-twenty: rgb(180,39,6);
-  --color-twenty-rgb:180,39,6;
+  --color-twenty: rgb(190,34,48);
+  --color-twenty-rgb:190,34,48;
   
   /* #060803 in decimal RGB */
   --color-twentyone: rgb(6,8,3);
@@ -167,47 +167,47 @@
   --color-twentythree-rgb:245,245,245;
   
   /* #000254 in decimal RGB */
-  --color-twentyfour: rgb(0,2,84);
+  --color-twentyfour: rgb(84, 3, 0);
   --color-twentyfour-rgb:0,2,84;
   
   /* #ccf7ee in decimal RGB */
-  --color-twentyfive: rgb(204,247,238);
-  --color-twentyfive-rgb:204,247,238;
+  --color-twentyfive: rgb(247 230 204);
+  --color-twentyfive-rgb:247 230 204;
   
   /* #0ad9ab in decimal RGB */
-  --color-twentysix: rgb(10,217,171);
+  --color-twentysix: rgb(217, 148, 10);
   --color-twentysix-rgb:10,217,171;
   
   /* #096ef5 in decimal RGB */
-  --color-twentyseven: rgb(9,110,245);
-  --color-twentyseven-rgb:9,110,245;
+  --color-twentyseven: rgb(190,34,48);
+  --color-twentyseven-rgb:190,34,48;
   
   /* #00d09b in decimal RGB */
-  --color-twentyeight: rgb(0,208,155);
-  --color-twentyeight-rgb:0,208,155;
+  --color-twentyeight: rgb(208, 166, 0);
+  --color-twentyeight-rgb:208, 166, 0;
   
   /* #020022 in decimal RGB */
-  --color-twentynine: rgb(2,0,34);
-  --color-twentynine-rgb:2,0,34;
+  --color-twentynine: rgb(34, 12, 0);
+  --color-twentynine-rgb:34, 12, 0;
   
   /* #9f989c in decimal RGB */
   --color-thirty: rgb(159,152,156);
   --color-thirty-rgb:159,152,156;
   
   /* #0d003d in decimal RGB */
-  --color-thirtyone: rgb(13,0,61);
-  --color-thirtyone-rgb:13,0,61;
+  --color-thirtyone: rgb(33,31,31);
+  --color-thirtyone-rgb:33,31,31;
   
   /* #f4f4f4 in decimal RGB */
   --color-thirtytwo: rgb(244,244,244);
   --color-thirtytwo-rgb:244,244,244;
   
   /* #1c0060 in decimal RGB */
-  --color-thirtythree: rgb(28,0,96);
-  --color-thirtythree-rgb:28,0,96;
+  --color-thirtythree: rgb(96, 5, 0);
+  --color-thirtythree-rgb:96, 5, 0;
   
   /* #04725a in decimal RGB */
-  --color-thirtyfour: rgb(4,114,90);
+  --color-thirtyfour: rgb(114, 39, 4);
   --color-thirtyfour-rgb:4,114,90;
   
   /* #909090 in decimal RGB */
@@ -295,7 +295,7 @@
   --color-fiftyfive-rgb:21,21,21;
   
   /* #76a713 in decimal RGB */
-  --color-fiftysix: rgb(118,167,19);
+  --color-fiftysix: rgb(167, 103, 19);
   --color-fiftysix-rgb:118,167,19;
   
   /* #838181 in decimal RGB */
@@ -348,7 +348,7 @@
   --dark-color:rgb(0,4,4);
   
   /* #25373f Heading Color */
-  --dark-border-color:rgb(37,55,63);
+  --dark-border-color:rgb(63, 37, 37);
   
   /* Fonts Variable */
   --font-family-Roboto: 'Roboto', sans-serif;
@@ -736,7 +736,7 @@ p{
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
-	box-shadow: inset 0 0 0 2px rgba(255, 23, 73, 0.2);
+	box-shadow: inset 0 0 0 2px rgba(255, 23, 23, 0.2);
 	z-index: 99;
 	opacity: 0;
 	visibility: hidden;
