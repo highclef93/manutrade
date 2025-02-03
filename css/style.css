@@ -1654,11 +1654,11 @@
 	position:relative;
 	font-size:var(--font-16);
 	color:var(--white-color);
-	-webkit-transition:all 500ms ease;
-	-moz-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
+	-webkit-transition:all 1000ms ease;
+	-moz-transition:all 1000ms ease;
+	-ms-transition:all 1000ms ease;
+	-o-transition:all 1000ms ease;
+	transition:all 1000ms ease;
 }
 
 .main-slider-two .social-box li a:hover{
@@ -1689,11 +1689,11 @@
 	-webkit-transform:scale(1);
 	-ms-transform:scale(1);
 	transform:scale(1);
-	-webkit-transition: all 6000ms linear;
-	-moz-transition: all 6000ms linear;
-	-ms-transition: all 6000ms linear;
-	-o-transition: all 6000ms linear;
-	transition: all 6000ms linear;
+	-webkit-transition: all 12000ms linear;
+	-moz-transition: all 12000ms linear;
+	-ms-transition: all 12000ms linear;
+	-o-transition: all 12000ms linear;
+	transition: all 12000ms linear;
 }
 
 .main-slider-two .image-layer:before{
@@ -1754,11 +1754,11 @@
 	transform-origin: top;
 	color:var(--white-color);
 	font-size:var(--font-30);
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 100ms ease;
-	-ms-transition: all 1000ms ease;
-	-o-transition: all 1000ms ease;
-	transition: all 1000ms ease;
+	-webkit-transition: all 2000ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 2000ms ease;
+	-o-transition: all 2000ms ease;
+	transition: all 2000ms ease;
 	margin-bottom:var(--margin-bottom-30);
 	font-family:var(--font-family-BeVietnam);
 }
@@ -1770,11 +1770,11 @@
 .main-slider-two .active .title{
 	opacity: 1;
 	transform: scaleY(1);
-	-webkit-transition-delay: 300ms;
-	-moz-transition-delay: 300ms;
-	-ms-transition-delay: 300ms;
-	-o-transition-delay: 300ms;
-	transition-delay: 300ms;
+	-webkit-transition-delay: 600ms;
+	-moz-transition-delay: 600ms;
+	-ms-transition-delay: 600ms;
+	-o-transition-delay: 600ms;
+	transition-delay: 600ms;
 }
 
 .main-slider-two h1 span{
@@ -1787,40 +1787,15 @@
 	transform: scaleY(0);
 	transform-origin: top;
 	color:var(--white-color);
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 100ms ease;
-	-ms-transition: all 1000ms ease;
-	-o-transition: all 1000ms ease;
-	transition: all 1000ms ease;
+	-webkit-transition: all 2000ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 2000ms ease;
+	-o-transition: all 2000ms ease;
+	transition: all 2000ms ease;
 	margin-bottom:var(--margin-bottom-30);
 }
 
 .main-slider-two .active h1{
-	opacity: 1;
-	transform: scaleY(1);
-	-webkit-transition-delay: 300ms;
-	-moz-transition-delay: 300ms;
-	-ms-transition-delay: 300ms;
-	-o-transition-delay: 300ms;
-	transition-delay: 300ms;
-}
-
-.main-slider-two .text{
-	opacity: 0;
-	max-width:580px;
-	transform: scaleY(0);
-	transform-origin: top;
-	color:var(--color-six);
-	font-size:var(--font-18);
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 100ms ease;
-	-ms-transition: all 1000ms ease;
-	-o-transition: all 1000ms ease;
-	transition: all 1000ms ease;
-	margin-bottom:var(--margin-bottom-35);
-}
-
-.main-slider-two .active .text{
 	opacity: 1;
 	transform: scaleY(1);
 	-webkit-transition-delay: 600ms;
@@ -1830,26 +1805,51 @@
 	transition-delay: 600ms;
 }
 
+.main-slider-two .text{
+	opacity: 0;
+	max-width:580px;
+	transform: scaleY(0);
+	transform-origin: top;
+	color:var(--color-six);
+	font-size:var(--font-18);
+	-webkit-transition: all 2000ms ease;
+	-moz-transition: all 2000ms ease;
+	-ms-transition: all 2000ms ease;
+	-o-transition: all 2000ms ease;
+	transition: all 2000ms ease;
+	margin-bottom:var(--margin-bottom-35);
+}
+
+.main-slider-two .active .text{
+	opacity: 1;
+	transform: scaleY(1);
+	-webkit-transition-delay: 1200ms;
+	-moz-transition-delay: 1200ms;
+	-ms-transition-delay: 1200ms;
+	-o-transition-delay: 1200ms;
+	transition-delay: 1200ms;
+}
+
 .main-slider-two .button-box{
 	opacity:0;
 	transform: scaleY(0);
 	transform-origin: top;
 	display:inline-block;
-	-webkit-transition: all 900ms ease;
-	-moz-transition: all 900ms ease;
-	-ms-transition: all 900ms ease;
-	-o-transition: all 900ms ease;
-	transition: all 900ms ease;
+	-webkit-transition: all 1800ms ease;
+	-moz-transition: all 1800ms ease;
+	-ms-transition: all 1800ms ease;
+	-o-transition: all 1800ms ease;
+	transition: all 1800ms ease;
 }
 
 .main-slider-two .active .button-box{
 	opacity: 1;
 	transform: scaleY(1);
-	-webkit-transition-delay: 900ms;
-	-moz-transition-delay: 900ms;
-	-ms-transition-delay: 900ms;
-	-o-transition-delay: 900ms;
-	transition-delay: 900ms;
+	-webkit-transition-delay: 1800ms;
+	-moz-transition-delay: 1800ms;
+	-ms-transition-delay: 1800ms;
+	-o-transition-delay: 1800ms;
+	transition-delay: 1800ms;
 }
 
 .main-slider-two .phone-box{
@@ -1859,11 +1859,11 @@
 	opacity:0;
 	transform: scaleY(0);
 	transform-origin: top;
-	-webkit-transition: all 900ms ease;
-	-moz-transition: all 900ms ease;
-	-ms-transition: all 900ms ease;
-	-o-transition: all 900ms ease;
-	transition: all 900ms ease;
+	-webkit-transition: all 1800ms ease;
+	-moz-transition: all 1800ms ease;
+	-ms-transition: all 1800ms ease;
+	-o-transition: all 1800ms ease;
+	transition: all 1800ms ease;
 }
 
 .main-slider-two .phone-box .box-inner{
@@ -1914,11 +1914,11 @@
 .main-slider-two .active .phone-box{
 	opacity: 1;
 	transform: scaleY(1);
-	-webkit-transition-delay: 900ms;
-	-moz-transition-delay: 900ms;
-	-ms-transition-delay: 900ms;
-	-o-transition-delay: 900ms;
-	transition-delay: 900ms;
+	-webkit-transition-delay: 1800ms;
+	-moz-transition-delay: 1800ms;
+	-ms-transition-delay: 1800ms;
+	-o-transition-delay: 1800ms;
+	transition-delay: 1800ms;
 }
 
 .main-slider-two .pattern-layer{
@@ -1957,11 +1957,11 @@
 	color:var(--color-thirty);
 	border:2px solid var(--color-thirty);
 	margin-bottom:var(--margin-bottom-15);
-	-webkit-transition:all 500ms ease;
-	-moz-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
+	-webkit-transition:all 1000ms ease;
+	-moz-transition:all 1000ms ease;
+	-ms-transition:all 1000ms ease;
+	-o-transition:all 1000ms ease;
+	transition:all 1000ms ease;
 	font-family: "Flaticon";
 	background-color: rgba(var(--black-color-rgb), 0.1);
 }
