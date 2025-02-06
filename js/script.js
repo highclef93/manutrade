@@ -350,7 +350,8 @@
 			nav:true,
 			autoHeight: true,
 			smartSpeed: 500,
-			autoplay: 6000,
+			autoplay: true,
+			autoplayTimeout: 12000,
 			navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
 			responsive:{
 				0:{
